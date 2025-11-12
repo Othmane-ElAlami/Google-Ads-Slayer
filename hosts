@@ -1,0 +1,77 @@
+#################################################################
+# Minimal Google Ad-Only Blocklist
+#
+# Blocks Google's ad-serving infrastructure
+#################################################################
+
+# System requirement
+127.0.0.1       localhost
+
+#################################################################
+# Core DoubleClick (Google Ad Manager)
+#################################################################
+0.0.0.0         doubleclick.net
+0.0.0.0         www.doubleclick.net
+0.0.0.0         ad.doubleclick.net
+0.0.0.0         googleads.g.doubleclick.net
+0.0.0.0         securepubads.g.doubleclick.net
+0.0.0.0         pubads.g.doubleclick.net
+0.0.0.0         stats.g.doubleclick.net
+0.0.0.0         cm.g.doubleclick.net
+0.0.0.0         fls.doubleclick.net
+0.0.0.0         ad-g.doubleclick.net
+
+#################################################################
+# DoubleClick Creative/CDN Servers
+#################################################################
+0.0.0.0         2mdn.net
+0.0.0.0         www.2mdn.net
+0.0.0.0         s0.2mdn.net
+0.0.0.0         s1.2mdn.net
+0.0.0.0         static.2mdn.net
+0.0.0.0         m1.2mdn.net
+0.0.0.0         rmcdn.2mdn.net
+
+#################################################################
+# Google AdSense (Publisher Network)
+#################################################################
+0.0.0.0         googlesyndication.com
+0.0.0.0         www.googlesyndication.com
+0.0.0.0         pagead2.googlesyndication.com
+0.0.0.0         tpc.googlesyndication.com
+0.0.0.0         partner.googlesyndication.com
+
+#################################################################
+# Google Ads Click/Conversion Tracking
+#################################################################
+0.0.0.0         googleadservices.com
+0.0.0.0         www.googleadservices.com
+0.0.0.0         pagead2.googleadservices.com
+0.0.0.0         afs.googleadservices.com
+
+#################################################################
+# Google Tag Services (Ad Delivery)
+#################################################################
+0.0.0.0         googletagservices.com
+0.0.0.0         www.googletagservices.com
+0.0.0.0         pagead-googlehosted.l.google.com
+
+#################################################################
+# Google Ad Platform Domains
+#################################################################
+0.0.0.0         adservice.google.com
+0.0.0.0         afs.googlesyndication.com
+0.0.0.0         apps-public.storage.googleapis.com
+
+#################################################################
+# YouTube Ad Servers
+#################################################################
+0.0.0.0         ads.youtube.com
+0.0.0.0         ads.google.com
+
+#################################################################
+# Mobile & App Ad Networks
+#################################################################
+0.0.0.0         afs.googlesyndication.com
+0.0.0.0         mobileads.google.com
+0.0.0.0         media.admob.com
